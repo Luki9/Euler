@@ -16,7 +16,7 @@ public class Euler6Test {
             int result = euler6.difference(numbers);
 
             //then
-            assertThat(result, equalTo(0));
+            Assert.assertThat(result, IsEqual.equalTo(0));
 
         }
 
@@ -30,7 +30,7 @@ public class Euler6Test {
             int result = euler6.difference(numbers);
 
             //then
-            assertThat(result, equalTo(170));
+            Assert.assertThat(result, IsEqual.equalTo(170));
 
         }
 
@@ -44,7 +44,7 @@ public class Euler6Test {
             int result = euler6.difference(numbers);
 
             //then
-            assertThat(result, equalTo(2640));
+            Assert.assertThat(result, IsEqual.equalTo(2640));
 
         }
 
@@ -58,7 +58,7 @@ public class Euler6Test {
             int result = euler6.difference(numbers);
 
             //then
-            assertThat(result, equalTo(5434));
+            Assert.assertThat(result, IsEqual.equalTo(5434));
 
         }
 

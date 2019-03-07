@@ -4,7 +4,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.*;
 
 public class Euler6Test {
-    public class MainTest {
+
 
         @Test
         public void shouldGive0forValue0() {
